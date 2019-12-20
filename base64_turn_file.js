@@ -12,4 +12,5 @@ function base64_decode(base64_str, file_name) {
 }
 
 // 用法示例
-base64_decode(base64_str, 'a.mp3');
+var base64_str = "" //把base64编码赋值给base64_str
+base64_decode(base64_str, 'file_name');
